@@ -1,4 +1,5 @@
-# Library Management System — BIWA2110 Week 12 continuation
+<<<<<<< HEAD
+# Library Management System 
 
 This project is organised to meet the assignment's React + Express + MySQL structure. It provides a React/Vite frontend, an Express REST API, and a MySQL schema.
 
@@ -81,3 +82,38 @@ Open the Vite address, normally `http://localhost:5173`.
 - Passwords are stored as bcrypt hashes, not plain text.
 - This is an academic starter implementation. Before production use, add authenticated sessions or JWTs, role-based authorization on protected API routes, input validation, and stronger security controls. The current frontend login is a basic demonstration and does not yet protect every page or backend route.
 - The public GitHub repository README described the React app, but its visible file list did not include the referenced `src/` source folder. This continuation package therefore reconstructs the frontend based on the repository's documented features and adds the Express/MySQL backend required by Week 12.
+=======
+# Library Management System - Assignment 2
+
+React + Vite library management system for BIWA2110.
+
+## Features
+- Login form and admin demo login
+- React Router navigation
+- Dashboard with current availability and low-stock highlighting (<2 copies)
+- Book management: add, update, delete, search
+- Book fields: title, author, genre, ISBN, year, initial quantity
+- Stock transactions: add stock / deduct stock
+- Transaction history
+- User management: add, update, delete, role and membership ID
+- Issue and return books with automatic availability updates
+- Local Storage persistence
+- Responsive CSS interface
+
+## Run
+1. Open this folder in VS Code.
+2. Open Terminal.
+3. Run `npm install`
+4. Run `npm run dev`
+5. Open the Local URL shown by Vite.
+
+## Demo login
+Membership ID: `ADMIN001`
+Password: `admin123`
+
+## Build for submission
+Run `npm run build`. If it completes successfully, the production build is in `dist/`.
+
+## GitHub submission
+Create a GitHub repository, then upload the project source (do not upload `node_modules`). Submit the GitHub repository link as required by the assignment.
+>>>>>>> 29d912e5a7d6c29b7158a2b85e42492236435db2
